@@ -1,0 +1,116 @@
+.form-wrapper {
+    width: 80%;
+    background-color: var(--primary-color);
+    margin: 0 auto;
+    padding: 3rem 0;
+}
+
+.form {
+    display: flex;
+    width: 80%;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 2rem;
+    padding: 2rem 1rem;
+    margin: 0 auto;
+    color: white;
+}
+
+.form-field {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 0.8rem;
+}
+
+.form-field-label {
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.form-field-input {
+    width: 100%;
+    border-radius: 0.4rem;
+    outline: none;
+    padding: 1rem;
+    font-size: 1.6rem;
+    border: none;
+    font-family: "Quicksand", sans-serif;
+    font-weight: 600;
+}
+
+
+.form-field-radio-btns {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 4rem;
+}
+
+.form-field-radio-btn {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 0.4rem;
+    font-weight: 500;
+}
+
+.form-field-line {
+    width: 100%;
+    margin-top: 2rem;
+}
+
+.form-field-checkboxes {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 0.6rem;
+}
+
+.form-field-checkbox {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 0.6rem;
+    font-weight: 500;
+}
+
+.form-field-checkbox-input {
+    width: 1.6rem;
+    height: 1.6rem;
+}
+
+.form-img-preview-wrapper {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 1.4rem;
+}
+
+.form-field-img-wrapper {
+    background: transparent;
+    border: 0.2rem solid white;
+    width: 100%;
+    padding: 2rem;
+    color: white;
+    border-radius: 0.4rem;
+}
+
+.form-img-previews {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 6rem;
+}
+
+.form-preview-img {
+    width: 100%;
+}

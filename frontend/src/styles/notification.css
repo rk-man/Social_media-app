@@ -1,0 +1,87 @@
+.notifications-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 4rem;
+}
+.notifications-header {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 1rem;
+    width: 100%;
+    background-color: white;
+    color: var(--primary-color);
+    padding: 1rem;
+    border-radius: 0.4rem;
+}
+.notifications-header-title {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 4rem;
+}
+
+.notifications-header-title-link {
+    cursor: pointer;
+}
+
+.notifications-header-title-link:hover {
+    text-decoration: underline;
+}
+
+.notifications-header-title-link-selected {
+    text-decoration: underline;
+}
+
+.notifications-header-line {
+    border: 0.2rem solid var(--primary-color);
+    width: 100%;
+}
+.notifications-people {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 2rem;
+    width: 100%;
+}
+.notifications-people-details {
+    padding: 1.6rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    background-color: #d39aff;
+    border-radius: 0.4rem;
+}
+.notifications-people-details-name {
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+
+.notifications-people-details-icons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1.6rem;
+}
+
+.notifications-people-details-each {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 1rem;
+}
+.notifications-people-details-each-img-wrapper {
+    height: 3rem;
+    width: 3rem;
+}
+.notifications-people-details-each-img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}

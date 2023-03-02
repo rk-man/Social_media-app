@@ -1,0 +1,338 @@
+.all-uploads {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    gap: 3rem;
+    overflow-x: scroll;
+    min-height: 60rem;
+    max-height: 80rem;
+    margin: 0 auto;
+    scroll-behavior: smooth;
+}
+
+.all-uploads::-webkit-scrollbar {
+    display: none;
+}
+
+.each-upload {
+    min-width: 30rem;
+    max-width: 40rem;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 0.2rem solid var(--primary-color);
+    border-radius: 0.8rem;
+    background-color: white;
+}
+
+.each-upload-img {
+    width: 100%;
+    height: 100%;
+    display: block;
+    margin: 0 auto;
+}
+
+.hidden {
+    opacity: 0;
+}
+
+.each-upload-mul-images {
+    width: 100%;
+}
+
+.each-upload-header {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem 1.4rem;
+}
+
+.each-upload-user-details {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 0.8rem;
+}
+
+.each-upload-user-details-info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    font-weight: 600;
+    gap: 0.1rem;
+}
+
+.each-upload-user-details-info-createdAt {
+    color: rgb(123, 123, 123);
+    font-size: 1.4rem;
+}
+
+.each-upload-user-details-profile-img-wrapper {
+    width: 4rem;
+    height: 4rem;
+}
+
+.each-upload-user-details-profile-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.each-upload-footer {
+    width: 100%;
+    padding: 2rem;
+}
+.each-upload-footer-icons {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+.each-upload-footer-icons-left {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 1rem;
+}
+
+.each-upload-footer-bookmark-icon {
+    width: 2rem;
+    height: 2rem;
+}
+
+/* SINGLE UPLOAD PAGE */
+.single-photo-container {
+    display: grid;
+    grid-template-columns: 0.7fr 1fr;
+    gap: 4rem;
+    width: 100%;
+    max-width: 80rem;
+    align-items: flex-start;
+    justify-items: center;
+    margin: 0 auto;
+}
+
+.single-photo-first-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.single-photo-overall-description {
+    border: 0.2rem solid var(--primary-color);
+    padding: 2rem;
+    width: 100%;
+    border-radius: 0.4rem;
+}
+
+.all-photos {
+    width: 100%;
+    overflow-y: scroll;
+    min-height: 40rem;
+    max-height: 60rem;
+    padding-right: 2rem;
+}
+
+.each-photo {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 0.2rem solid var(--primary-color);
+    border-radius: 0.8rem;
+    padding-top: 1rem;
+    margin-bottom: 4rem;
+}
+.each-photo-img {
+    width: 96%;
+    height: 96%;
+}
+.each-photo-footer {
+    width: 100%;
+    padding: 2rem;
+    font-weight: 500;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 1rem;
+}
+
+.each-photo-footer-genre {
+    background-color: var(--primary-color);
+    color: white;
+    border-radius: 0.4rem;
+    padding: 0.2rem 0.6rem;
+    font-size: 1.4rem;
+}
+
+.each-photo-footer-details {
+    width: 100%;
+    background-color: var(--secondary-color);
+    padding: 2rem;
+    border-radius: 0.4rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 1rem;
+}
+
+.each-photo-footer-details-field {
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 0.6rem;
+}
+
+.each-photo-footer-details-field-label {
+    font-weight: 700;
+}
+
+.single-photo-owner {
+    width: 100%;
+    justify-self: flex-end;
+    border: 0.2rem solid var(--primary-color);
+    border-radius: 0.4rem;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.single-photo-icons {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 1rem;
+    border: 0.2rem solid var(--primary-color);
+    border-radius: 0.4rem;
+    position: relative;
+}
+
+.each-upload-footer-icons-left-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 0.1rem;
+}
+
+/* .single-photo-like {
+    position: absolute;
+    bottom: 0;
+} */
+
+.single-photo-owner-img-wrapper {
+    width: 5rem;
+    height: 5rem;
+}
+.single-photo-owner-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.each-upload-footer-like {
+    font-size: 1.4rem;
+    font-weight: 600;
+    color: rgb(131, 131, 131);
+}
+
+.all-comments {
+    padding: 1rem;
+    border-radius: 0.4rem;
+    border: 0.2rem solid var(--primary-color);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 1rem;
+}
+
+.each-comment {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 1rem;
+    background-color: var(--secondary-color);
+    width: 100%;
+    padding: 0.6rem;
+    border-radius: 0.4rem;
+}
+
+.each-comment-user-img-wrapper {
+    width: 3rem;
+    height: 3rem;
+}
+.each-comment-user-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.each-comment-user-and-comment {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 1rem;
+}
+.each-comment-user-name {
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+
+.all-comments-add-comment {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+    gap: 0.4rem;
+}
+.all-comments-add-comment-img-wrapper {
+    width: 4rem;
+    height: 4rem;
+}
+.all-comments-add-comment-img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.all-comments-add-comment-wrapper {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 0.6rem;
+}
+
+.add-comment-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.4rem;
+}
+
+#add-comment {
+    font-size: 1.4rem;
+    font-family: "Quicksand", sans-serif;
+    padding: 0.4rem;
+    font-weight: 500;
+}

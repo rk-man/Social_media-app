@@ -1,0 +1,196 @@
+.users-container {
+    width: 100%;
+}
+
+.users-search-container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 4rem;
+    margin-bottom: 4rem;
+}
+
+.user-search-input {
+    width: 100%;
+    padding: 1rem 0.6rem;
+    font-size: 1.4rem;
+    font-weight: 600;
+}
+.search-icon-wrapper {
+    background-color: var(--primary-color);
+    height: 100%;
+    padding: 0 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.all-users {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    width: 100%;
+}
+
+.each-user-container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 2rem;
+    padding: 1rem;
+    border-radius: 0.4rem;
+    width: 100%;
+    background-color: white;
+}
+
+.each-user-img-wrapper {
+    width: 3rem;
+    height: 3rem;
+}
+
+.each-user-img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.each-user-name {
+    font-weight: 600;
+    font-size: 1.8rem;
+}
+
+.account-page-container {
+    width: 100%;
+    background-color: white;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 4rem;
+}
+.account-page-header {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.account-page-user-img-names-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+.account-page-user-img-wrapper {
+    width: 8rem;
+    height: 8rem;
+}
+.account-page-user-img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+.account-page-user-names {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding-top: 1rem;
+}
+
+.account-page-user-names-fullname {
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+
+.account-page-user-info {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 4rem;
+    width: 100%;
+}
+.account-page-user-info-bio {
+    white-space: pre-wrap;
+}
+.account-page-links {
+    min-width: 28rem;
+    max-width: 30rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 1.8rem;
+}
+.link-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 0.4rem;
+}
+.social-media-links {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 0.4rem;
+}
+.social-media-link {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 0.8rem;
+}
+
+.account-page-all-uploads {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    max-width: 100%;
+    gap: 1rem;
+    /* align-items: center; */
+    /* justify-content: center; */
+    margin-bottom: 2rem;
+}
+
+.account-page-each-upload {
+    min-width: 100%;
+    max-width: 100%;
+}
+
+.each-upload-account-wrapper {
+    max-width: 100%;
+    height: 32rem;
+}
+
+.edit-upload-account {
+    position: absolute;
+}
+
+.profile-img-wrapper {
+    width: 8rem;
+    height: 8rem;
+}
+.profile-img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.user-follows {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6rem;
+    margin-top: 1.6rem;
+}
+
+.user-sub-follows {
+}
